@@ -73,14 +73,6 @@ Content-Type: application/x-www-form-urlencoded
 parameter=value
 ```
 
-### Evidence
-
-Save a screenshot:
-
-```text
-evidence/
-└── 01-baseline-request.png
-```
 
 ### What I am learning
 
@@ -100,12 +92,7 @@ In Burp, inspect the request protocol.
 HTTP/1.1
 ```
 
-### Evidence
 
-```text
-evidence/
-└── 02-http11-request.png
-```
 
 ### Why?
 
@@ -294,15 +281,7 @@ Create a table:
 | Reproducible?      | Yes/No             |
 | Security impact    | Record impact      |
 
-### Evidence
 
-```text
-evidence/
-├── 03-clte-request.png
-└── 04-clte-response.png
-```
-
----
 
 # 10. Study TE.CL
 
@@ -450,17 +429,7 @@ Write something more professional:
 
 The front-end and back-end components demonstrated different request-framing behavior when processing the test request.
 
-### Evidence
 
-```text
-HTTP/1.1
-        ↓
-Front-end parsing behavior
-        ↓
-Back-end parsing behavior
-        ↓
-Different request interpretation
-```
 
 ### Impact
 
